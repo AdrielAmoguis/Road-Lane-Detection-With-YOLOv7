@@ -1,0 +1,10 @@
+download: bash ./scripts/get_road_lanes.sh
+
+train: "./Road-Lane-Instance-Segmentation-1/train"
+val: "./Road-Lane-Instance-Segmentation-1/valid"
+test: "./Road-Lane-Instance-Segmentation-1/test"
+
+# number of classes
+nc: 1
+# class names
+names: [ 'Road Lane']
