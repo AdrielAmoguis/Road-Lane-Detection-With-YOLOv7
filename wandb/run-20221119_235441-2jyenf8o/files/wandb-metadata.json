@@ -1,0 +1,39 @@
+{
+    "os": "macOS-13.0-arm64-arm-64bit",
+    "python": "3.9.13",
+    "heartbeatAt": "2022-11-19T15:54:42.492005",
+    "startedAt": "2022-11-19T15:54:41.072371",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--data",
+        "data/road_lanes.yaml",
+        "--batch",
+        "30",
+        "--weights",
+        "",
+        "--cfg",
+        "yolov7-seg.yaml",
+        "--epochs",
+        "30",
+        "--name",
+        "road-lane-seg",
+        "--img",
+        "640",
+        "--hyp",
+        "hyp.scratch-high.yaml"
+    ],
+    "state": "running",
+    "program": "/Users/adrielamoguis/THESIS/Demarcation-based System/Road-Lane-Detection-With-YOLOv7/segment/train.py",
+    "codePath": "segment/train.py",
+    "git": {
+        "remote": "https://github.com/AdrielAmoguis/yolov7-segmentation.git",
+        "commit": "e54f2bcb887b86fc6a966f42bb7833fbbc856e71"
+    },
+    "email": "adriel.isaiah.amoguis@gmail.com",
+    "root": "/Users/adrielamoguis/THESIS/Demarcation-based System/Road-Lane-Detection-With-YOLOv7",
+    "host": "Adriels-MacBook-Pro.local",
+    "username": "adrielamoguis",
+    "executable": "/Users/adrielamoguis/miniforge3/bin/python3"
+}
